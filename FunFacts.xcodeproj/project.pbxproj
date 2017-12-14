@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02292D931FE23BD400FE93B5 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02292D921FE23BD400FE93B5 /* FactProvider.swift */; };
+		02292D951FE2485900FE93B5 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02292D941FE2485900FE93B5 /* BackgroundColorProvider.swift */; };
 		02F029651FCBB77900AE1EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F029641FCBB77900AE1EEE /* AppDelegate.swift */; };
 		02F029671FCBB77900AE1EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F029661FCBB77900AE1EEE /* ViewController.swift */; };
 		02F0296A1FCBB77900AE1EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F029681FCBB77900AE1EEE /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02292D921FE23BD400FE93B5 /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		02292D941FE2485900FE93B5 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 		02F029611FCBB77900AE1EEE /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F029641FCBB77900AE1EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F029661FCBB77900AE1EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			children = (
 				02F029641FCBB77900AE1EEE /* AppDelegate.swift */,
 				02F029661FCBB77900AE1EEE /* ViewController.swift */,
+				02292D921FE23BD400FE93B5 /* FactProvider.swift */,
 				02F029681FCBB77900AE1EEE /* Main.storyboard */,
 				02F0296B1FCBB77900AE1EEE /* Assets.xcassets */,
 				02F0296D1FCBB77900AE1EEE /* LaunchScreen.storyboard */,
 				02F029701FCBB77900AE1EEE /* Info.plist */,
+				02292D941FE2485900FE93B5 /* BackgroundColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				02F029671FCBB77900AE1EEE /* ViewController.swift in Sources */,
 				02F029651FCBB77900AE1EEE /* AppDelegate.swift in Sources */,
+				02292D951FE2485900FE93B5 /* BackgroundColorProvider.swift in Sources */,
+				02292D931FE23BD400FE93B5 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL4HV53LN4;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.katie.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +299,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL4HV53LN4;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.katie.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
